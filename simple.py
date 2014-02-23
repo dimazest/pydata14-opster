@@ -5,7 +5,7 @@ import opster
 
 @opster.command()
 def hello():
-    """A hello word implementation."""
+    """A hello world implementation."""
     print 'Hello world!'
 
 
