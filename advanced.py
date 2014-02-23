@@ -8,7 +8,7 @@ def sum(
     number=('n', 5, 'An interger.'),
     other=('', 1, 'Another interger.'),
 ):
-    """Greet a concrete person."""
+    """Sum two integers."""
     print number + other
 
 

@@ -8,7 +8,7 @@ class IPythoner(Magics):
     """Integrate Opster and IPython::
 
     >>> %opster sum -h
-    Greet a concrete person.
+    Sum two integers.
 
     options:
 

@@ -9,13 +9,5 @@ def hello():
     print 'Hello world!'
 
 
-@opster.command()
-def greet(
-    name=('n', 'Dima', 'Your name.'),
-):
-    """Greet a concrete person."""
-    print 'Hello, {name}. How are you?'.format(name=name)
-
-
 if __name__ == '__main__':
     hello.command()
